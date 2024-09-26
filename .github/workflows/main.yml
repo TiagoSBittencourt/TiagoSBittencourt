@@ -16,8 +16,8 @@ jobs:
       - name: Update README with LeetCode stats
         run: |
           echo "![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Tiago_Bittencourt&theme=dark)" >> README.md
-          git config --local user.email "your_email@example.com"
-          git config --local user.name "Your Name"
+          git config --local user.email "tiago.bittencourt.2005@gmail.com"
+          git config --local user.name "Tiago_Bittenocurt"
           git add README.md
           git commit -m "Update LeetCode stats" || echo "No changes to commit"
           git push
