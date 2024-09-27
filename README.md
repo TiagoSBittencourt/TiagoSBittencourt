@@ -63,3 +63,4 @@
     <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TiagoSBittencourt&layout=compact&langs_count=7&theme=blueberry" style="margin-bottom: 80px;"/>
     <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api?username=TiagoSBittencourt&show_icons=true&theme=blueberry&include_all_commits=true&count_private=true"/>
 </div>
+![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Tiago_Bittencourt&theme=dark)
