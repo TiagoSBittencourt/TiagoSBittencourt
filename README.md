@@ -60,6 +60,10 @@
 
 <a href="https://github.com/TiagoSBittencourt">
 <div align="center">
-    <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TiagoSBittencourt&layout=compact&langs_count=7&theme=blueberry" style="margin-bottom: 10px;"/>
-    <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api?username=TiagoSBittencourt&show_icons=true&theme=blueberry&include_all_commits=true&count_private=true"/>
+    <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TiagoSBittencourt&layout=compact&langs_count=7&theme=nord&cache_seconds=1800" style="margin-bottom: 10px;"/>
+    <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api?username=TiagoSBittencourt&show_icons=true&theme=nord&include_all_commits=true&count_private=true&cache_seconds=1800"/>
+</div>
+
+<div align="center">
+    <img loading="lazy" src="https://leetcard.jacoblin.cool/Tiago_Bittencourt?ext=heatmap&theme=nord&cache=1800" alt="LeetCode Stats"/>
 </div>
