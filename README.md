@@ -68,3 +68,4 @@
     <img loading="lazy" src="https://leetcard.jacoblin.cool/Tiago_Bittencourt?ext=heatmap&theme=nord&cache=1800" alt="LeetCode Stats"/>
 </div>
 ![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Tiago_Bittencourt&theme=dark)
+![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Tiago_Bittencourt&theme=dark)
