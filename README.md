@@ -70,3 +70,4 @@
 ![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Tiago_Bittencourt&theme=dark)
 ![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Tiago_Bittencourt&theme=dark)
 ![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Tiago_Bittencourt&theme=dark)
+![LeetCode Stats](https://leetcode-stats.vercel.app/api?username=Tiago_Bittencourt&theme=dark)
