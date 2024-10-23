@@ -1,8 +1,8 @@
 name: Update LeetCode Stats
 
 on:
-  schedule:
-    - cron: '0 0 * * 0'  # Runs on sunday at midnight
+  #schedule:
+    #- cron: '0 0 * * 0'  # Runs on sunday at midnight
   workflow_dispatch:
 
 jobs:
