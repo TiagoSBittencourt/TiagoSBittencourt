@@ -4,9 +4,9 @@
 <h3 align="center">A passionate developer and software engineer student from Brasil/Portugal 🇧🇷 🇵🇹</h3>
 
 <div align="center">
-    🔭 I’m currently working on <a href="https://github.com/TiagoSBittencourt?tab=repositories" target="_blank"><strong>Python projects</strong></a><br><br>
+    🔭 I’m currently working on some <a href="https://github.com/TiagoSBittencourt?tab=repositories" target="_blank"><strong>Repositories</strong></a><br><br>
     🎓 I'm studying at the University of Brasilia <strong>(UnB)<strong><br><br>
-    🌱 I’m currently deepening my knowledge of <strong>AI/ML, SQL, and AWS<strong><br><br>
+    🌱 I’m currently deepening my knowledge of <strong>AI/ML, SQL, QA, and AWS<strong><br><br>
     💬 Ask me about <strong>Python and Algorithms<strong><br><br>
     📫 How to reach me: <strong>tiago.bittencourt.2005@gmail.com<strong>
   
