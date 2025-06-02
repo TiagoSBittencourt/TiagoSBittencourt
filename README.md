@@ -1,69 +1,149 @@
-<h1 align="center">
+<h1 style="text-align: center;">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Quicksand&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hello+World!+👋;+I'm+Tiago+Bittencourt!;&color=1E90FF" />
 </h1>
-<h3 align="center">A passionate developer and software engineer student from Brasil/Portugal 🇧🇷 🇵🇹</h3>
+<h3 style="text-align: center;">
+  A passionate developer and software engineer student from 
+  <img src="https://cdn-icons-png.flaticon.com/512/197/197386.png" width="13" style="vertical-align: middle;"/> 
+  Brasil / 
+  <img src="https://cdn-icons-png.flaticon.com/512/197/197463.png" width="13" style="vertical-align: middle;"/> 
+  Portugal
+</h3>
 
-<div align="center">
-    🔭 I’m currently working on some <a href="https://github.com/TiagoSBittencourt?tab=repositories" target="_blank"><strong>Repositories</strong></a><br><br>
-    🎓 I'm studying at the University of Brasilia <strong>(UnB)<strong><br><br>
-    🌱 I’m currently deepening my knowledge of <strong>AI/ML, SQL, QA, and AWS<strong><br><br>
-    💬 Ask me about <strong>Python and Algorithms<strong><br><br>
-    📫 How to reach me: <strong>tiago.bittencourt.2005@gmail.com<strong>
-  
+<div style="text-align: center;">
+    🔭 I’m currently working on some <a href="https://github.com/TiagoSBittencourt?tab=repositories" target="_blank"><span style="font-weight: 600;">Repositories</span></a><br><br>
+    🎓 I'm studying at the University of Brasilia <strong>(UnB)</strong>&nbsp;
+    <img src="assets/Logo_UnB.png" alt="UnB Logo" style="height: 1em; vertical-align: middle;" /><br><br>
+    🌱 I’m currently deepening my knowledge of <strong>AI/ML, Fullstack, and Design</strong><br><br>
+    💬 Fluent in <strong>English</strong> 
+    <img src="https://cdn-icons-png.flaticon.com/512/197/197484.png" width="13" style="vertical-align: middle;"/> 
+    and <strong>Portuguese </strong> 
+    <img src="https://cdn-icons-png.flaticon.com/512/197/197386.png" width="13" style="vertical-align: middle;" /><br><br>
+    📫 How to reach me: 
+    <a href="mailto:tiago.bittencourt.2005@gmail.com" target="_blank">
+    <span style="font-weight: 600;">tiago.bittencourt.2005@gmail.com</span>
+</a>
 </div>
 </p>
-<div align="center">
-    <a href="https://linkedin.com/in/tiago-bittencourt-605a32321" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tiago-bittencourt-605a32321" height="30" width="40" /></a>
-    <a href="https://stackoverflow.com/users/26707811" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="26707811" height="30" width="40" /></a>
-    <a href="https://instagram.com/tiago._.sb" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="tiago._.sb" height="30" width="40" /></a>
-    <a href="https://www.leetcode.com/tiago_bittencourt" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="tiago_bittencourt" height="30" width="40" /></a>
+<div style="text-align: center;">
+    <a href="https://linkedin.com/in/tiago-bittencourt-605a32321" target="blank"><img style="text-align: center;" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="tiago-bittencourt-605a32321" height="30" width="40" /></a>
+    <a href="https://stackoverflow.com/users/26707811" target="blank"><img style="text-align: center;" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="26707811" height="30" width="40" /></a>
+    <a href="https://instagram.com/tiago._.sb" target="blank"><img style="text-align: center;" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="tiago._.sb" height="30" width="40" /></a>
+    <a href="https://www.leetcode.com/tiago_bittencourt" target="blank"><img style="text-align: center;" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="tiago_bittencourt" height="30" width="40" /></a>
 </p>
 
-<div align="center"> 
-    <strong>Languages and Tools:</strong>
+<div style="text-align: center;"> 
+    <strong>
+        Languages and Tools&nbsp;
+        <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" 
+             alt="icon" 
+             style="height: 1.7em; vertical-align: middle;" />
+    </strong>
 </div>
-<p align="center"> 
-    <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
-    </a> 
-    <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> 
-    </a> 
-    <a href="https://numpy.org/" target="_blank" rel="noreferrer"> 
-        <img src="https://github.com/marwin1991/profile-technology-icons/assets/76012086/4ec200c2-acdf-4c42-b419-cd49cba3d09f" alt="numpy" width="40" height="40"/> 
-    </a>
-    <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> 
-        <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> 
-    </a>
-    <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> 
-    </a>
-    <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> 
-    </a> 
-    <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> 
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> 
-    </a> 
-    <a href="https://www.gnu.org/software/bash/manual/bash.html" target="_blank" rel="noreferrer"> 
-        <img src="https://user-images.githubusercontent.com/25181517/192158606-7c2ef6bd-6e04-47cf-b5bc-da2797cb5bda.png" alt="bash" width="40" height="40"/> 
-    </a> 
-</p>
+<table style="width: 100%; table-layout: fixed;  text-align: center;">
+  <tr>
+    <th>AI / ML</th>
+    <th>Backend</th>
+    <th>Frontend</th>
+    <th>Others</th>
+  </tr>
+  <tr>
+    <td style="text-align: center; width: 25%;text-align: center;">
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=py" alt="AI/ML" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=tensorflow" alt="AI  ML"    >
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=sklearn" alt="AI/ML" />
+      </a>
+    </td>
+    <td style="text-align: center; width: 25%;text-align: center;">
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=express" alt="Backend" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=django" alt="Backend" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=mysql" alt="Backend" />
+      </a>
+    </td>
+    <td style="text-align: center; width: 25%;text-align: center;">
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=html" alt="Frontend" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=css" alt="Frontend" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=js"  alt="Frontend" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=ts"  alt="Frontend" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=react" alt="Frontend" />
+      </a>
+    </td>
+    <td style="text-align: center; width: 25%;text-align: center;">
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=c" alt="Others" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=cpp" alt="Others" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=figma" alt="Others" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=git" alt="Others" />
+      </a>
+      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=github" alt="Others" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+<!--
+<div style="text-align: center;">
+    <img loading="lazy" src="https://leetcard.jacoblin.cool/Tiago_Bittencourt?ext=heatmap&theme=nord&cache=1800" alt="LeetCode Stats"/>
+</div> 
+-->
 
 <a href="https://github.com/TiagoSBittencourt">
-<div align="center">
-    <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TiagoSBittencourt&layout=compact&langs_count=7&theme=nord&cache_seconds=604800" style="margin-bottom: 10px;"/>
-    <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api?username=TiagoSBittencourt&show_icons=true&theme=nord&include_all_commits=true&count_private=true&cache_seconds=604800"/>
-</div>
+  <div style="
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    align-items: center; 
+    flex-wrap: wrap;
+    max-width: 700px; /* aumenta o max-width para deixar mais espaço antes de quebrar */
+    margin: 0 auto;
+  ">
+    <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TiagoSBittencourt&layout=compact&langs_count=7&theme=nord&cache_seconds=604800" style="margin: 0;"/>
+    <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api?username=TiagoSBittencourt&show_icons=true&theme=nord&include_all_commits=true&count_private=true&cache_seconds=604800" style="margin: 0;"/>
+  </div>
+</a>
 
-<div align="center">
-    <img loading="lazy" src="https://leetcard.jacoblin.cool/Tiago_Bittencourt?ext=heatmap&theme=nord&cache=1800" alt="LeetCode Stats"/>
+<div style="
+  display: flex; 
+  justify-content: center; 
+  gap: 30px; 
+  flex-wrap: wrap; 
+  max-width: 750px; 
+  margin: 20px auto 0 auto;
+">
+  <img 
+    src="https://media.giphy.com/media/hrSFdM4rg8VFpXyz2m/giphy.gif" 
+    alt="GIF 1" 
+    style="height: 225px; width: auto; flex-shrink: 0;"
+  />
+  <img 
+    src="assets/devDayNightPc.gif" 
+    alt="GIF 2" 
+    style="height: 225px; width: auto; flex-shrink: 1; object-fit: contain;"
+  />
 </div>
