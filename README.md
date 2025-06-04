@@ -51,58 +51,58 @@
   </tr>
   <tr>
     <td align="center" width="25%">
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=py" alt="AI/ML" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=tensorflow" alt="AI/ML" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=sklearn" alt="AI/ML" />
       </a>
     </td>
     <td align="center" width="25%">
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a  target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=express" alt="Backend" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=django" alt="Backend" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=mysql" alt="Backend" />
       </a>
     </td>
     <td align="center" width="25%">
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=html" alt="Frontend" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=css" alt="Frontend" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=js"  alt="Frontend" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=ts"  alt="Frontend" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=react" alt="Frontend" />
       </a>
     </td>
     <td align="center" width="25%">
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a  target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=c" alt="Others" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=cpp" alt="Others" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=figma" alt="Others" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=git" alt="Others" />
       </a>
-      <a href="https://skillicons.dev" target="_blank" rel="noreferrer">
+      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=github" alt="Others" />
       </a>
     </td>
