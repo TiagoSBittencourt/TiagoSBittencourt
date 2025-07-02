@@ -26,7 +26,7 @@
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/tiago-bittencourt-605a32321" target="_blank">
+  <a href="https://www.linkedin.com/in/tiagosbittencourt/" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="34" width="46" />
   </a>
   <a href="https://stackoverflow.com/users/26707811" target="_blank">
