@@ -93,11 +93,11 @@
       </a>
     </td>
     <td align="center" width="25%">
+      <a target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=linux" alt="Others" />
+      </a>
       <a  target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=c" alt="Others" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=cpp" alt="Others" />
       </a>
       <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=figma" alt="Others" />
@@ -107,6 +107,9 @@
       </a>
       <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=github" alt="Others" />
+      </a>
+      <a target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=docker" alt="Others" />
       </a>
     </td>
   </tr>
