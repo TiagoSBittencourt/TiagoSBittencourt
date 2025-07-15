@@ -63,7 +63,7 @@
     </td>
     <td align="center" width="25%">
       <a  target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=express" alt="Backend" />
+          <img src="https://skillicons.dev/icons?i=flask" alt="Backend" />
       </a>
       <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=django" alt="Backend" />
@@ -87,6 +87,9 @@
       </a>
       <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=react" alt="Frontend" />
+      </a>
+      <a target="_blank" rel="noreferrer">
+          <img src="https://skillicons.dev/icons?i=tailwind" alt="Frontend" />
       </a>
     </td>
     <td align="center" width="25%">
