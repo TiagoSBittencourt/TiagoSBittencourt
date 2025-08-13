@@ -14,7 +14,7 @@
   🔭 I’m currently working on some <a href="https://github.com/TiagoSBittencourt?tab=repositories" target="_blank"><strong>Repositories</strong></a><br><br>
   🎓 I'm studying at the University of Brasilia <strong>(UnB)</strong>
   <img src="assets/Logo_UnB.png" alt="UnB Logo" height="16" /><br><br>
-  🌱 I’m currently deepening my knowledge of <strong>AI/ML, Fullstack, and Design</strong><br><br>
+  🌱 I’m currently deepening my knowledge of <strong>AI/ML </strong>,<strong> Data Science</strong> and <strong> Clound</strong><br><br>
   💬 Fluent in <strong>English</strong>
   <img src="https://cdn-icons-png.flaticon.com/512/197/197484.png" width="13" />
   and <strong>Portuguese</strong>
@@ -25,15 +25,15 @@
   </a>
 </p>
 
-<p align="center">
+<p align="center"> 
   <a href="https://www.linkedin.com/in/tiagosbittencourt/" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="34" width="46" />
   </a>
-  <a href="https://stackoverflow.com/users/26707811" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="Stack Overflow" height="34" width="46" />
-  </a>
   <a href="https://instagram.com/tiago._.sb" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="34" width="46" />
+  </a>
+  <a href="https://www.kaggle.com/tiagosbittencourt" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="Kaggle" height="34" width="46" />
   </a>
   <a href="https://www.leetcode.com/tiago_bittencourt" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="34" width="46" />
@@ -66,10 +66,10 @@
           <img src="https://skillicons.dev/icons?i=flask" alt="Backend" />
       </a>
       <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=django" alt="Backend" />
+          <img src="https://skillicons.dev/icons?i=mysql" alt="Backend" />
       </a>
       <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=mysql" alt="Backend" />
+          <img src="https://skillicons.dev/icons?i=jenkins" alt="Backend" />
       </a>
     </td>
     <td align="center" width="25%">
