@@ -100,9 +100,6 @@
           <img src="https://skillicons.dev/icons?i=c" alt="Others" />
       </a>
       <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=figma" alt="Others" />
-      </a>
-      <a target="_blank" rel="noreferrer">
           <img src="https://skillicons.dev/icons?i=git" alt="Others" />
       </a>
       <a target="_blank" rel="noreferrer">
