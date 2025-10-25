@@ -120,8 +120,12 @@
 -->
 <p align="center">
   <a href="https://github.com/TiagoSBittencourt">
-    <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TiagoSBittencourt&layout=compact&langs_count=7&theme=nord&cache_seconds=604800" />
-    <img loading="lazy" height="160em" src="https://github-readme-stats.vercel.app/api?username=TiagoSBittencourt&show_icons=true&theme=nord&include_all_commits=true&count_private=true&cache_seconds=604800" />
+    <img loading="lazy" height="160em" 
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=TiagoSBittencourt&layout=compact&langs_count=7&theme=nord&cache_seconds=604800&exclude_repo=Public-Investment-Data-Analysis-DF,UnB-Data-Analysis,Book-Recommender,UniBrain" 
+    />  
+    <img loading="lazy" height="160em" 
+      src="https://github-readme-stats.vercel.app/api?username=TiagoSBittencourt&show_icons=true&theme=nord&include_all_commits=true&count_private=true&cache_seconds=604800" 
+    />
   </a>
 </p>
 
