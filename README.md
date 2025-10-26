@@ -14,7 +14,7 @@
   🔭 I’m currently working on some <a href="https://github.com/TiagoSBittencourt?tab=repositories" target="_blank"><strong>Repositories</strong></a><br><br>
   🎓 I'm studying at the University of Brasilia <strong>(UnB)</strong>
   <img src="assets/Logo_UnB.png" alt="UnB Logo" height="16" /><br><br>
-  🌱 I’m currently deepening my knowledge of <strong>AI/ML </strong>,<strong> Data Science</strong> and <strong> Clound</strong><br><br>
+  🌱 I’m currently deepening my knowledge of <strong>AI/ML </strong>,<strong> Data Science</strong> and <strong> Cloud</strong><br><br>
   💬 Fluent in <strong>English</strong>
   <img src="https://cdn-icons-png.flaticon.com/512/197/197484.png" width="13" />
   and <strong>Portuguese</strong>
