@@ -15,10 +15,12 @@
   🎓 I'm studying at the University of Brasilia <strong>(UnB)</strong>
   <img src="assets/Logo_UnB.png" alt="UnB Logo" height="16" /><br><br>
   🌱 I’m currently deepening my knowledge of <strong>AI/ML </strong>,<strong> Data Science</strong> and <strong> Cloud</strong><br><br>
+  <!--
   💬 Fluent in <strong>English</strong>
   <img src="https://cdn-icons-png.flaticon.com/512/197/197484.png" width="13" />
   and <strong>Portuguese</strong>
   <img src="https://cdn-icons-png.flaticon.com/512/197/197386.png" width="13" /><br><br>
+  -->
   📫 How to reach me:
   <a href="mailto:tiago.bittencourt.2005@gmail.com" target="_blank">
     <strong>tiago.bittencourt.2005@gmail.com</strong>
