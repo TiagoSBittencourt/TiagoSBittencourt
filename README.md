@@ -7,7 +7,7 @@
   <img src="https://cdn-icons-png.flaticon.com/512/197/197386.png" width="13" alt="Brazil flag" />
   Brasil /
   <img src="https://cdn-icons-png.flaticon.com/512/197/197463.png" width="13" alt="Portugal flag" />
-  Portugal
+  Portugal 
 </h3>
 
 <p align="center">
