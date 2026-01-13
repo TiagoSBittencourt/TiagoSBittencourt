@@ -12,11 +12,11 @@
 
 <p align="center">
   🔭 I’m currently working on some <a href="https://github.com/TiagoSBittencourt?tab=repositories" target="_blank"><strong>Repositories</strong></a><br><br>
-  🎓 I'm studying at the University of Brasilia <strong>(UnB)</strong>
+  🎓 I'm  studying at the University of Brasilia <strong>(UnB)</strong>
   <img src="assets/Logo_UnB.png" alt="UnB Logo" height="16" /><br><br>
   🌱 I’m currently deepening my knowledge of <strong>AI/ML </strong>, <strong>Data Science</strong>, and <strong>Cloud</strong><br><br>
   👨‍💻 I’m a new Data Engineer at <a href="https://github.com/lappis-unb" target="_blank"><strong>Lab Livre (LAPPIS)</strong></a>, working on the <a href="https://github.com/GovHub-br" target="_blank"><strong>GovHuB</strong></a> project.<br><br>
-  📫 How to reach me:
+  📫 How to reach me: 
   <a href="mailto:tiago.bittencourt.2005@gmail.com" target="_blank">
     <strong>tiago.bittencourt.2005@gmail.com</strong>
   </a>
