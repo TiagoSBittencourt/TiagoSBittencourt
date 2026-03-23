@@ -26,8 +26,8 @@
   <a href="https://www.linkedin.com/in/tiagosbittencourt/" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="34" width="46" />
   </a>
-  <a href="https://instagram.com/tiago._.sb" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="Instagram" height="34" width="46" />
+  <a href="https://t.me/tiagobitt" target="_blank">
+    <img src="https://github.com/CLorant/readme-social-icons/blob/main/small/filled/telegram.svg" alt="Telegram" height="34" width="46" />
   </a>
   <a href="https://www.kaggle.com/tiagosbittencourt" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="Kaggle" height="34" width="46" />
