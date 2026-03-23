@@ -98,4 +98,12 @@
 <p align="center">
   <img 
     src="https://media.giphy.com/media/hrSFdM4rg8VFpXyz2m/giphy.gif" 
-    alt="GIF 1"****
+    alt="GIF 1" 
+    height="225px"
+  />
+  <img 
+    src="./assets/devDayNightPC.gif" 
+    alt="GIF 2" 
+    height="225px"
+  />
+</p>
