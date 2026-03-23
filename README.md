@@ -68,7 +68,6 @@
       <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react" alt="React" /></a>
       <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" /></a>
       <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=express" alt="Express" /></a>
       <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" /></a>
       <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=django" /></a>
     </td>
