@@ -15,7 +15,7 @@
   🎓 I'm studying at the University of Brasilia <strong>(UnB)</strong>
   <img src="assets/Logo_UnB.png" alt="UnB Logo" height="16" /><br><br>
   🌱 I’m currently deepening my knowledge of <strong>Data Science</strong>, <strong>AI/ML </strong> and <strong>Academic Research</strong><br><br>
-  👨‍💻’m a Data Engineer at <a href="https://github.com/lablivre-unb" target="_blank"><strong>Lab Livre (LAPPIS)</strong></a>, working on the <a href="https://github.com/GovHub-br" target="_blank"><strong>GovHuB</strong></a> project.<br><br>
+  👨‍💻 I'm a Data Engineer at <a href="https://github.com/lablivre-unb" target="_blank"><strong>Lab Livre (LAPPIS)</strong></a>, working on the <a href="https://github.com/GovHub-br" target="_blank"><strong>GovHuB</strong></a> project.<br><br>
   📫 How to reach me: 
   <a href="mailto:tiago.bittencourt.2005@gmail.com" target="_blank">
     <strong>tiago.bittencourt.2005@gmail.com</strong>
@@ -41,80 +41,50 @@
 
 <table>
   <tr>
+    <th align="center">Data</th>
     <th align="center">AI / ML</th>
-    <th align="center">Backend</th>
-    <th align="center">Frontend</th>
+    <th align="center">Full-Stack</th>
     <th align="center">Others</th>
   </tr>
   <tr>
     <td align="center" width="25%">
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=py" alt="AI/ML" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=tensorflow" alt="AI/ML" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=sklearn" alt="AI/ML" />
-      </a>
+      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=airflow" /></a>
+      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=dbtlabs" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" /></a>
+      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=dbeaver" /></a>
+      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=tableau" /></a>
+      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=uml" /></a>
     </td>
     <td align="center" width="25%">
-      <a  target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=flask" alt="Backend" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=mysql" alt="Backend" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=jenkins" alt="Backend" />
-      </a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py" alt="Python" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tensorflow" alt="Tensorflow" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=sklearn" alt="Sklearn" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" /></a>
+      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=ollama" /></a>
+      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=huggingface" /></a>
     </td>
     <td align="center" width="25%">
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=html" alt="Frontend" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=css" alt="Frontend" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=js"  alt="Frontend" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=ts"  alt="Frontend" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=react" alt="Frontend" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=tailwind" alt="Frontend" />
-      </a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react" alt="React" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=express" alt="Express" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" /></a>
+      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=django" /></a>
     </td>
     <td align="center" width="25%">
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=linux" alt="Others" />
-      </a>
-      <a  target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=c" alt="Others" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=git" alt="Others" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=github" alt="Others" />
-      </a>
-      <a target="_blank" rel="noreferrer">
-          <img src="https://skillicons.dev/icons?i=docker" alt="Others" />
-      </a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=linux" alt="Linux" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
+      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=insomnia" /></a>
+      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=graphql" /></a>
     </td>
   </tr>
 </table>
 
 </div>
-<!--
-<div style="text-align: center;">
-    <img loading="lazy" src="https://leetcard.jacoblin.cool/Tiago_Bittencourt?ext=heatmap&theme=nord&cache=1800" alt="LeetCode Stats"/>
-</div> 
--->
+
 <p align="center">
   <a href="https://github.com/TiagoSBittencourt">
     <img loading="lazy" height="160em" 
@@ -129,12 +99,4 @@
 <p align="center">
   <img 
     src="https://media.giphy.com/media/hrSFdM4rg8VFpXyz2m/giphy.gif" 
-    alt="GIF 1" 
-    height="225px"
-  />
-  <img 
-    src="./assets/devDayNightPC.gif" 
-    alt="GIF 2" 
-    height="225px"
-  />
-</p>
+    alt="GIF 1"****
