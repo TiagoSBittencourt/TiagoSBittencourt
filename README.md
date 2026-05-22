@@ -1,51 +1,72 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?font=Quicksand&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hello+World!+👋;+I'm+Tiago+Bittencourt!;&color=1E90FF" alt="Typing SVG" />
+  <img 
+    src="https://readme-typing-svg.herokuapp.com/?font=Quicksand&size=32&center=true&vCenter=true&width=650&height=60&duration=4000&lines=Hello+World!+;+I'm+Tiago+Bittencourt!;&color=8B5E3C" 
+    alt="Typing SVG" 
+  />
 </h1>
 
-<h3 align="center">
-  A passionate developer and software engineering student from 
-  <img src="https://cdn-icons-png.flaticon.com/512/197/197386.png" width="13" alt="Brazil flag" />
-  Brasil /
-  <img src="https://cdn-icons-png.flaticon.com/512/197/197463.png" width="13" alt="Portugal flag" />
-  Portugal 
-</h3>
+<p align="center">
+  Software Engineering • Data Engineering • AI/ML Enthusiast
+</p>
 
 <p align="center">
-  🔭 I’m currently working on some <a href="https://github.com/TiagoSBittencourt?tab=repositories" target="_blank"><strong>Repositories</strong></a><br><br>
-  🎓 I'm studying at the University of Brasilia <strong>(UnB)</strong>
-  <img src="assets/Logo_UnB.png" alt="UnB Logo" height="16" /><br><br>
-  🌱 I’m currently deepening my knowledge of <strong>Data Science</strong>, <strong>AI/ML </strong> and <strong>Academic Research</strong><br><br>
-  👨‍💻 I'm a Data Engineer at <a href="https://github.com/lablivre-unb" target="_blank"><strong>Lab Livre (LAPPIS)</strong></a>, working on the <a href="https://github.com/GovHub-br" target="_blank"><strong>GovHuB</strong></a> project.<br><br>
-  📫 How to reach me: 
-  <a href="mailto:tiago.bittencourt.2005@gmail.com" target="_blank">
-    <strong>tiago.bittencourt.2005@gmail.com</strong>
+  <img 
+    src="https://capsule-render.vercel.app/api?type=rect&color=0:111111,100:3A2A20&height=2&section=header"
+    width="80%"
+  />
+</p>
+
+
+<h4 align="center">
+  A passionate data engineer @ GovHub and software engineering student @ <strong>UnB</strong>    <img src="assets/Logo_UnB.png" alt="UnB Logo" height="16" /><br><br>
+</h4>
+
+<p align="center">
+  <a href="https://github.com/TiagoSBittencourt?tab=repositories">
+    <img src="https://img.shields.io/badge/Repositories-8B5E3C?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  
+  <a href="https://www.linkedin.com/in/tiagosbittencourt/">
+    <img src="https://img.shields.io/badge/LinkedIn-8B5E3C?style=for-the-badge&logo=linkedin&logoColor=0A66C2&labelColor=8B5E3C" />
+  </a>
+  
+  <a href="https://www.kaggle.com/tiagosbittencourt">
+    <img src="https://img.shields.io/badge/Kaggle-8B5E3C?style=for-the-badge&logo=kaggle&logoColor=white" />
+  </a>
+  
+  <a href="https://www.leetcode.com/tiago_bittencourt">
+    <img src="https://img.shields.io/badge/LeetCode-8B5E3C?style=for-the-badge&logo=leetcode&logoColor=white" />
+  </a>
+  
+  <a href="https://t.me/tiagobitt">
+    <img src="https://img.shields.io/badge/Telegram-8B5E3C?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
 </p>
 
-<p align="center"> 
-  <a href="https://www.linkedin.com/in/tiagosbittencourt/" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="34" width="46" />
-  </a>
-  <a href="https://t.me/tiagobitt" target="_blank">
-    <img src="https://github.com/CLorant/readme-social-icons/blob/main/small/filled/telegram.svg" alt="Telegram" height="34" width="46" />
-  </a>
-  <a href="https://www.kaggle.com/tiagosbittencourt" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="Kaggle" height="34" width="46" />
-  </a>
-  <a href="https://www.leetcode.com/tiago_bittencourt" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="34" width="46" />
+<p align="center">
+  <a href="mailto:tiago.bittencourt.2005@gmail.com">
+    <img src="https://img.shields.io/badge/Email-8B5E3C?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
 
 <div align="center">
 
-<table>
+<table align="center">
   <tr>
-    <th align="center">Data</th>
-    <th align="center">AI / ML</th>
-    <th align="center">Full-Stack</th>
-    <th align="center">Others</th>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Data-3A2A20?style=for-the-badge" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/AI%20%2F%20ML-3A2A20?style=for-the-badge" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Full--Stack-3A2A20?style=for-the-badge" />
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Others-3A2A20?style=for-the-badge" />
+    </td>
   </tr>
+  
   <tr>
     <td align="center" width="25%">
       <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=airflow" /></a>
@@ -82,18 +103,9 @@
   </tr>
 </table>
 
+
 </div>
 
-<p align="center">
-  <a href="https://github.com/TiagoSBittencourt">
-    <img loading="lazy" height="160em" 
-      src="https://github-readme-stats.vercel.app/api/top-langs/?username=TiagoSBittencourt&layout=compact&langs_count=7&theme=nord&cache_seconds=604800&exclude_repo=Public-Investment-Data-Analysis-DF,UnB-Data-Analysis,Book-Recommender,UniBrain" 
-    />  
-    <img loading="lazy" height="160em" 
-      src="https://github-readme-stats.vercel.app/api?username=TiagoSBittencourt&show_icons=true&theme=nord&include_all_commits=true&count_private=true&cache_seconds=604800" 
-    />
-  </a>
-</p>
 
 <p align="center">
   <img 
@@ -106,4 +118,12 @@
     alt="GIF 2" 
     height="225px"
   />
+</p>
+
+<h3 align="center">
+  Current Focus
+</h3>
+
+<p align="center">
+  Data Pipelines • AI/ML • System Architecture • Academic Research
 </p>
