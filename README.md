@@ -113,11 +113,11 @@
     alt="GIF 1" 
     height="225px"
   />
-  <img 
+  <!--<img 
     src="./assets/devDayNightPC.gif" 
     alt="GIF 2" 
     height="225px"
-  />
+  />-->
 </p>
 
 <h3 align="center">
