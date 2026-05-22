@@ -1,6 +1,6 @@
 <h1 align="center">
   <img 
-    src="https://readme-typing-svg.herokuapp.com/?font=Quicksand&size=32&center=true&vCenter=true&width=650&height=60&duration=4000&lines=Hello+World!+;+I'm+Tiago+Bittencourt!;&color=8B5E3C" 
+    src="https://readme-typing-svg.herokuapp.com/?font=Quicksand&size=32&center=true&vCenter=true&width=650&height=60&duration=3500&pause=1000&lines=Hello+World!;I'm+Tiago+Bittencourt!&color=8B5E3C" 
     alt="Typing SVG" 
   />
 </h1>
