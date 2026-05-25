@@ -120,14 +120,25 @@
   />-->
 </p>
 
-<h3 align="center">
-  Current Focus
-</h3>
+<div align="center">
 
-<p align="center">
-  Data Pipelines • AI/ML • System Architecture • Academic Research
-</p>
+<div style="display: flex; align-items: center; justify-content: center; gap: 14px;">
 
+<img 
+  src="assets/bear-brown-jacket-nb.png" 
+  width="90"
+  alt="Bear Mascot"
+/>
+
+<div align="left">
+
+### Current Focus
+
+Data Pipelines • AI/ML • System Architecture • Academic Research
+
+</div>
+</div>
+</div>
 <p align="center">
   <img 
     src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:8B5E3C&height=100&section=footer&animation=fadeIn"
