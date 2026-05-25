@@ -18,7 +18,7 @@
 
 
 <h4 align="center">
-  A passionate data engineer @ GovHub and software engineering student @ <strong>UnB</strong>    <img src="assets/Logo_UnB_Brown.png" alt="UnB Logo" height="14" /><br><br>
+  A passionate data engineer @ <strong>GovHub</strong> <img src="assets/govhub-logo-nb-brown.png" alt="UnB Logo" height="20" /> and software engineering student @ <strong>UnB</strong>    <img src="assets/Logo_UnB_Brown.png" alt="UnB Logo" height="14" /><br><br>
 </h4>
 
 <p align="center">
