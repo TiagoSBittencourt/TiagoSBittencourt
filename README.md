@@ -139,7 +139,7 @@
 Data Pipelines • AI/ML • System Architecture • Academic Research
 
 <h4 align="center">
-  Jesus is <span style="position: relative; display: inline-block;"><strong>King</strong><img src="assets/jesus-crown.png" alt="Crown" height="18" style="position: absolute; top: -14px; left: 50%; transform: translateX(-50%);" /></span><br><br>
+  Jesus is <span style="position: relative; display: inline-block;"><strong>King</strong> <img src="assets/jesus-crown.png" alt="Crown" height="18" /></span><br><br>
 </h4>
 
 <p align="center">
