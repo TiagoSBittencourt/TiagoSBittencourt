@@ -69,40 +69,39 @@
   
   <tr>
     <td align="center" width="25%">
-      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=airflow" /></a>
-      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=dbtlabs" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" /></a>
-      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=dbeaver" /></a>
-      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=tableau" /></a>
-      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=uml" /></a>
+      <a href="https://airflow.apache.org/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=airflow" /></a>
+      <a href="https://www.getdbt.com/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=dbtlabs" /></a>
+      <a href="https://www.postgresql.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=postgres" alt="PostgreSQL" /></a>
+      <a href="https://dbeaver.io/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=dbeaver" /></a>
+      <a href="https://www.tableau.com/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=tableau" /></a>
+      <a href="https://www.uml.org/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=uml" /></a>
     </td>
     <td align="center" width="25%">
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py" alt="Python" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tensorflow" alt="Tensorflow" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=sklearn" alt="Sklearn" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" /></a>
-      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=ollama" /></a>
-      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=huggingface" /></a>
+      <a href="https://www.python.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=py" alt="Python" /></a>
+      <a href="https://www.tensorflow.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tensorflow" alt="Tensorflow" /></a>
+      <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=sklearn" alt="Sklearn" /></a>
+      <a href="https://pytorch.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=pytorch" alt="PyTorch" /></a>
+      <a href="https://ollama.com/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=ollama" /></a>
+      <a href="https://huggingface.co/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=huggingface" /></a>
     </td>
     <td align="center" width="25%">
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react" alt="React" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" /></a>
-      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=django" /></a>
+      <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" /></a>
+      <a href="https://react.dev/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=react" alt="React" /></a>
+      <a href="https://nextjs.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=nextjs" alt="Next.js" /></a>
+      <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" /></a>
+      <a href="https://fastapi.tiangolo.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=fastapi" alt="FastAPI" /></a>
+      <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=django" /></a>
     </td>
     <td align="center" width="25%">
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=linux" alt="Linux" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
-      <a target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
-      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=insomnia" /></a>
-      <a href="https://go-skill-icons.vercel.app/"><img src="https://go-skill-icons.vercel.app/api/icons?i=graphql" /></a>
+      <a href="https://www.linux.org/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=linux" alt="Linux" /></a>
+      <a href="https://git-scm.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=git" alt="Git" /></a>
+      <a href="https://github.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=github" alt="GitHub" /></a>
+      <a href="https://www.docker.com/" target="_blank" rel="noreferrer"><img src="https://skillicons.dev/icons?i=docker" alt="Docker" /></a>
+      <a href="https://insomnia.rest/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=insomnia" /></a>
+      <a href="https://graphql.org/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=graphql" /></a>
     </td>
   </tr>
 </table>
-
 
 </div>
 
