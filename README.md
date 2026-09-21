@@ -56,7 +56,7 @@
     <img src="https://img.shields.io/badge/Email-8B5E3C?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   
-  <img src="https://komarev.com/ghpvc/?username=TiagoSBittencourt&label=Profile%20Views&color=8B5E3C&style=for-the-badge&base=58320" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=TiagoSBittencourt&label=Profile%20Views&color=8B5E3C&style=for-the-badge&base=5320" alt="Profile Views" />
 </p>
 
 <div align="center">
