@@ -55,6 +55,8 @@
   <a href="mailto:tiago.bittencourt.2005@gmail.com">
     <img src="https://img.shields.io/badge/Email-8B5E3C?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+  
+  <img src="https://komarev.com/ghpvc/?username=TiagoSBittencourt&label=Profile%20Views&color=8B5E3C&style=for-the-badge" alt="Profile Views" />
 </p>
 
 <div align="center">
