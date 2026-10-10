@@ -155,6 +155,10 @@ Data Pipelines • AI/ML • System Architecture • Academic Research
 <img src="dist/trophies.svg" alt="trophies"/>
 </div>
 
+<div align="center">
+<img src="dist/contrib-bear.svg" alt="Ursinho comendo o gráfico de contribuições"/>
+</div>
+
 <p align="center">
   <img 
     src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:8B5E3C&height=100&section=footer&animation=fadeIn"
