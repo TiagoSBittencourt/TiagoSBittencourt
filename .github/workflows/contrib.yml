@@ -1,8 +1,8 @@
-name: Generate GitHub Trophies
+name: Generate Contribution Bear
 
 on:
   schedule:
-    - cron: "0 6 1 * *"   # dia 1 de cada mês às 06:00 UTC (~03:00 em Brasília)
+    - cron: "0 5 * * *"   # todo dia às 05:00 UTC (~02:00 em Brasília)
   workflow_dispatch:        # permite rodar manualmente pela aba Actions
   push:
     branches:
@@ -31,19 +31,17 @@ jobs:
       - name: Instalar dependências
         run: pip install requests
 
-      - name: Gerar trophies.svg
+      - name: Gerar contrib-bear.svg
         env:
           GH_USERNAME: TiagoSBittencourt
-          # Usa o GITHUB_TOKEN automático. Para incluir contribuições privadas,
-          # crie um secret GH_PAT (PAT clássico com escopo read:user/repo) e troque abaixo.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python generate_stats.py
+        run: python generate_contrib.py
 
-      - name: Commitar trophies.svg atualizado
+      - name: Commitar contrib-bear.svg atualizado
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/trophies.svg
-          git diff --cached --quiet && echo "Nada novo para commitar" || git commit -m "chore: atualizar trophies do GitHub"
+          git add dist/contrib-bear.svg
+          git diff --cached --quiet && echo "Nada novo para commitar" || git commit -m "chore: atualizar gráfico de contribuições"
           git pull --rebase
           git push
