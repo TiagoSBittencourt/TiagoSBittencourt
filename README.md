@@ -76,7 +76,16 @@
       <img src="https://img.shields.io/badge/Others-3A2A20?style=for-the-badge" />
     </td>
   </tr>
-  
+
+
+
+<p align="center">
+  <a href="https://tiagosbittencourt.github.io/personal-portfolio/">
+    <img src="https://img.shields.io/badge/Portfolio-8B5E3C?style=for-the-badge" />
+  </a>
+</p>
+
+<br>
   <tr>
     <td align="center" width="25%">
       <a href="https://airflow.apache.org/" target="_blank" rel="noreferrer"><img src="https://go-skill-icons.vercel.app/api/icons?i=airflow" /></a>
