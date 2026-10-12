@@ -1,10 +1,10 @@
-"""Gera dist/contrib-bear.svg: um ursinho que passeia pelo gráfico de
-contribuições comendo os quadradinhos (no estilo do "snake", mas com a
-paleta marrom do README).
+"""Generates dist/contrib-bear.svg: a little bear that walks across the
+contribution graph eating the squares (in the style of the "snake", but with
+the README's brown palette).
 
-Uso:
+Usage:
     GH_USERNAME=... GITHUB_TOKEN=... python generate_contrib.py
-    python generate_contrib.py --demo    # dados sintéticos, para preview local
+    python generate_contrib.py --demo    # synthetic data, for local preview
 """
 import datetime
 import os
@@ -13,7 +13,7 @@ import sys
 
 from generate_stats import BG, BORDER, TITLE, TEXT, MUTED, gh_graphql
 
-# ---------- Paleta das células (vazio -> mais contribuições) ----------
+# ---------- Cell palette (empty -> more contributions) ----------
 EMPTY = "#2A1F18"
 LEVEL_COLORS = [EMPTY, "#5C3A21", "#8B5E3C", "#C08552", "#E3B47C"]
 LEVELS = {
@@ -24,7 +24,7 @@ LEVELS = {
     "FOURTH_QUARTILE": 4,
 }
 
-# ---------- Urso ----------
+# ---------- Bear ----------
 FUR = "#C69C6D"
 FUR_DARK = "#8B5E3C"
 SNOUT = "#EDE0D4"
@@ -35,17 +35,17 @@ CELL, GAP = 11, 3
 PITCH = CELL + GAP
 PAD_X = 25
 GRID_TOP = 62
-MONTHS = ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"]
+MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 FONT = "Segoe UI, Helvetica, Arial, sans-serif"
 
-# ---------- Tempo (segundos) ----------
-STEP = 0.09          # tempo para andar uma célula
-INTRO = 0.8          # urso aparece
-HOLD = 1.2           # pausa depois de comer tudo
+# ---------- Timing (seconds) ----------
+STEP = 0.09          # time to walk one cell
+INTRO = 0.8          # bear fades in
+HOLD = 1.2           # pause after eating everything
 FADE_OUT = 0.5
-REFILL = 2.4         # onda que "replanta" as contribuições
+REFILL = 2.4         # wave that "replants" the contributions
 IDLE = 0.8
-EAT = 0.35           # a célula "derrete" enquanto o urso come
+EAT = 0.35           # the cell "melts" while the bear eats
 
 
 def fetch_calendar(username: str, token: str):
@@ -70,11 +70,11 @@ def fetch_calendar(username: str, token: str):
 
 
 def demo_calendar(seed: int = 7):
-    """Ano sintético com semanas mais/menos ativas, para testar o visual."""
+    """Synthetic year with more/less active weeks, for testing the visual."""
     rng = random.Random(seed)
     today = datetime.date.today()
     start = today - datetime.timedelta(days=364)
-    start -= datetime.timedelta(days=(start.weekday() + 1) % 7)  # domingo
+    start -= datetime.timedelta(days=(start.weekday() + 1) % 7)  # Sunday
     weeks, total, day = [], 0, start
     while day <= today:
         week = []
@@ -95,9 +95,9 @@ def demo_calendar(seed: int = 7):
 
 
 def plan_route(cells: dict, start: tuple):
-    """Vizinho mais próximo (Manhattan), andando em L de célula em célula.
+    """Nearest neighbor (Manhattan), walking in L-shapes from cell to cell.
 
-    Retorna a lista de posições visitadas e o passo em que cada célula foi comida.
+    Returns the list of visited positions and the step at which each cell was eaten.
     """
     remaining = {pos for pos, lvl in cells.items() if lvl > 0}
     pos, path, eaten_at = start, [start], {}
@@ -165,7 +165,7 @@ def render_svg(username: str, total: int, weeks) -> str:
 
     css, rects = [], []
 
-    # Células: somem quando o urso passa e voltam numa onda da esquerda p/ direita.
+    # Cells: disappear when the bear passes and come back in a left-to-right wave.
     for (x, y), level in sorted(cells.items()):
         cx, cy = PAD_X + x * PITCH, GRID_TOP + y * PITCH
         color = LEVEL_COLORS[level]
@@ -183,7 +183,7 @@ def render_svg(username: str, total: int, weeks) -> str:
         )
         rects.append(f'<rect class="{name}" x="{cx}" y="{cy}" width="{CELL}" height="{CELL}" rx="2.5" fill="{color}"/>')
 
-    # Urso: keyframes só nas curvas (o movimento linear entre elas é uniforme).
+    # Bear: keyframes only at turns (linear motion between them is uniform).
     corners = [0] + [
         i for i in range(1, steps)
         if (path[i][0] - path[i - 1][0], path[i][1] - path[i - 1][1])
@@ -206,7 +206,7 @@ def render_svg(username: str, total: int, weeks) -> str:
         f".bob{{animation:bob {STEP * 4:.2f}s ease-in-out infinite}}"
     )
 
-    # Rótulos dos meses (primeira semana de cada mês).
+    # Month labels (first week of each month).
     labels, last_month = [], None
     for x, week in enumerate(weeks):
         month = int(week[0][1][5:7])
@@ -219,16 +219,16 @@ def render_svg(username: str, total: int, weeks) -> str:
 
     legend_y = GRID_TOP + 7 * PITCH - GAP + 18
     legend_x = width - PAD_X - 5 * PITCH - 28
-    legend = [f'<text x="{legend_x - 6}" y="{legend_y + 9}" fill="{MUTED}" font-size="10" font-family="{FONT}" text-anchor="end">Menos</text>']
+    legend = [f'<text x="{legend_x - 6}" y="{legend_y + 9}" fill="{MUTED}" font-size="10" font-family="{FONT}" text-anchor="end">Less</text>']
     for i, color in enumerate(LEVEL_COLORS):
         legend.append(f'<rect x="{legend_x + i * PITCH}" y="{legend_y}" width="{CELL}" height="{CELL}" rx="2.5" fill="{color}"/>')
-    legend.append(f'<text x="{legend_x + 5 * PITCH + 3}" y="{legend_y + 9}" fill="{MUTED}" font-size="10" font-family="{FONT}">Mais</text>')
+    legend.append(f'<text x="{legend_x + 5 * PITCH + 3}" y="{legend_y + 9}" fill="{MUTED}" font-size="10" font-family="{FONT}">More</text>')
 
-    return f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Gráfico de contribuições de {username}">
+    return f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{username}'s contribution graph">
   <style>{"".join(css)}.bob{{transform-box:fill-box;transform-origin:center}}</style>
   <rect x="0.5" y="0.5" rx="12" width="{width - 1}" height="{height - 1}" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>
-  <text x="{PAD_X}" y="30" fill="{TITLE}" font-size="17" font-weight="700" font-family="{FONT}">Contribuições</text>
-  <text x="{width - PAD_X}" y="30" fill="{TEXT}" font-size="12" font-family="{FONT}" text-anchor="end">{total:,} no último ano</text>
+  <text x="{PAD_X}" y="30" fill="{TITLE}" font-size="17" font-weight="700" font-family="{FONT}">Contributions</text>
+  <text x="{width - PAD_X}" y="30" fill="{TEXT}" font-size="12" font-family="{FONT}" text-anchor="end">{total:,} in the last year</text>
   {"".join(labels)}
   {"".join(rects)}
   {"".join(legend)}
@@ -244,14 +244,14 @@ def main():
     else:
         token = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN")
         if not token:
-            print("Defina GH_PAT (ou GITHUB_TOKEN), ou rode com --demo.", file=sys.stderr)
+            print("Set GH_PAT (or GITHUB_TOKEN), or run with --demo.", file=sys.stderr)
             sys.exit(1)
         total, weeks = fetch_calendar(username, token)
 
     os.makedirs("dist", exist_ok=True)
     with open("dist/contrib-bear.svg", "w", encoding="utf-8") as f:
         f.write(render_svg(username, total, weeks))
-    print("Gerado: dist/contrib-bear.svg")
+    print("Generated: dist/contrib-bear.svg")
 
 
 if __name__ == "__main__":

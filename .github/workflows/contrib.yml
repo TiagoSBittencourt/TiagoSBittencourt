@@ -2,8 +2,8 @@ name: Generate Contribution Bear
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # todo dia às 05:00 UTC (~02:00 em Brasília)
-  workflow_dispatch:        # permite rodar manualmente pela aba Actions
+    - cron: "0 5 * * *"   # every day at 05:00 UTC (~02:00 in Brasília)
+  workflow_dispatch:        # allows running manually from the Actions tab
   push:
     branches:
       - main
@@ -11,7 +11,7 @@ on:
 permissions:
   contents: write
 
-# Os dois workflows commitam em dist/; roda um de cada vez para evitar conflito no push.
+# Both workflows commit to dist/; run one at a time to avoid push conflicts.
 concurrency:
   group: readme-assets
   cancel-in-progress: false
@@ -28,20 +28,20 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Instalar dependências
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Gerar contrib-bear.svg
+      - name: Generate contrib-bear.svg
         env:
           GH_USERNAME: TiagoSBittencourt
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python generate_contrib.py
 
-      - name: Commitar contrib-bear.svg atualizado
+      - name: Commit updated contrib-bear.svg
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add dist/contrib-bear.svg
-          git diff --cached --quiet && echo "Nada novo para commitar" || git commit -m "chore: atualizar gráfico de contribuições"
+          git diff --cached --quiet && echo "Nothing new to commit" || git commit -m "chore: update contribution graph"
           git pull --rebase
           git push

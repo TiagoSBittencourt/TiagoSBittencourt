@@ -2,8 +2,8 @@ name: Generate GitHub Trophies
 
 on:
   schedule:
-    - cron: "0 6 1 * *"   # dia 1 de cada mês às 06:00 UTC (~03:00 em Brasília)
-  workflow_dispatch:        # permite rodar manualmente pela aba Actions
+    - cron: "0 6 1 * *"   # 1st of every month at 06:00 UTC (~03:00 in Brasília)
+  workflow_dispatch:        # allows running manually from the Actions tab
   push:
     branches:
       - main
@@ -11,7 +11,7 @@ on:
 permissions:
   contents: write
 
-# Os dois workflows commitam em dist/; roda um de cada vez para evitar conflito no push.
+# Both workflows commit to dist/; run one at a time to avoid push conflicts.
 concurrency:
   group: readme-assets
   cancel-in-progress: false
@@ -28,22 +28,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Instalar dependências
+      - name: Install dependencies
         run: pip install requests
 
-      - name: Gerar trophies.svg
+      - name: Generate trophies.svg
         env:
           GH_USERNAME: TiagoSBittencourt
-          # Usa o GITHUB_TOKEN automático. Para incluir contribuições privadas,
-          # crie um secret GH_PAT (PAT clássico com escopo read:user/repo) e troque abaixo.
+          # Uses the automatic GITHUB_TOKEN. To include private contributions,
+          # create a GH_PAT secret (classic PAT with read:user/repo scope) and swap it below.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python generate_stats.py
 
-      - name: Commitar trophies.svg atualizado
+      - name: Commit updated trophies.svg
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add dist/trophies.svg
-          git diff --cached --quiet && echo "Nada novo para commitar" || git commit -m "chore: atualizar trophies do GitHub"
+          git diff --cached --quiet && echo "Nothing new to commit" || git commit -m "chore: update GitHub trophies"
           git pull --rebase
           git push

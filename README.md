@@ -156,7 +156,7 @@ Data Pipelines • AI/ML • System Architecture • Academic Research
 </div>
 
 <div align="center">
-<img src="dist/contrib-bear.svg" alt="Ursinho comendo o gráfico de contribuições"/>
+<img src="dist/contrib-bear.svg" alt="Little bear eating the contribution graph"/>
 </div>
 
 <p align="center">
