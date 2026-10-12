@@ -2,18 +2,18 @@ import os
 import sys
 import requests
 
-# ---------- Paleta (marrom, mesma do README) ----------
-BG = "#1a1410"       # fundo escuro amarronzado
-BORDER = "#5C3A21"   # borda marrom média
-TITLE = "#C69C6D"    # título em marrom claro (destaque)
-TEXT = "#EDE0D4"     # texto off-white quente
-MUTED = "#9C7B5A"    # texto secundário marrom acinzentado
-# tons do mais claro ao mais escuro, base no #8B5E3C do README
+# ---------- Palette (brown, same as the README) ----------
+BG = "#1a1410"       # dark brownish background
+BORDER = "#5C3A21"   # medium brown border
+TITLE = "#C69C6D"    # title in light brown (highlight)
+TEXT = "#EDE0D4"     # warm off-white text
+MUTED = "#9C7B5A"    # grayish-brown secondary text
+# shades from lightest to darkest, based on the README's #8B5E3C
 BAR_SHADES = ["#D9A56B", "#C08552", "#A66E3E", "#8B5E3C", "#6E472B", "#5C3A21"]
 
 GRAPHQL_URL = "https://api.github.com/graphql"
 
-# Limiares para os selos de "Conquistas" (trophies).
+# Thresholds for the "Achievements" badges (trophies).
 THRESHOLDS = {
     "total_commits": 1000,
     "total_prs": 50,
@@ -116,12 +116,12 @@ def fetch_profile(username: str, token: str) -> dict:
 
 def render_trophies_svg(username: str, s: dict) -> str:
     categories = [
-        ("Estrelas", "total_stars"),
+        ("Stars", "total_stars"),
         ("Commits", "total_commits"),
         ("Pull Reqs", "total_prs"),
         ("Issues", "total_issues"),
-        ("Revisões", "total_reviews"),
-        ("Seguidores", "followers"),
+        ("Reviews", "total_reviews"),
+        ("Followers", "followers"),
     ]
 
     box_w, box_h, gap, top_pad = 72, 90, 8, 55
@@ -142,9 +142,9 @@ def render_trophies_svg(username: str, s: dict) -> str:
           <text x="{box_w/2}" y="74" fill="{MUTED}" font-size="10" font-family="Segoe UI, Helvetica, Arial, sans-serif" text-anchor="middle">{s[key]:,}</text>
         </g>''')
 
-    svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Conquistas de {username}">
+    svg = f'''<svg width="{width}" height="{height}" viewBox="0 0 {width} {height}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="{username}'s achievements">
   <rect x="0.5" y="0.5" rx="12" width="{width - 1}" height="{height - 1}" fill="{BG}" stroke="{BORDER}" stroke-width="1"/>
-  <text x="25" y="30" fill="{TITLE}" font-size="17" font-weight="700" font-family="Segoe UI, Helvetica, Arial, sans-serif">Conquistas</text>
+  <text x="25" y="30" fill="{TITLE}" font-size="17" font-weight="700" font-family="Segoe UI, Helvetica, Arial, sans-serif">Achievements</text>
   {''.join(body)}
 </svg>'''
     return svg
@@ -154,7 +154,7 @@ def main():
     username = os.environ.get("GH_USERNAME")
     token = os.environ.get("GH_PAT") or os.environ.get("GITHUB_TOKEN")
     if not username or not token:
-        print("Defina GH_USERNAME e GH_PAT (ou GITHUB_TOKEN) como variaveis de ambiente.", file=sys.stderr)
+        print("Set GH_USERNAME and GH_PAT (or GITHUB_TOKEN) as environment variables.", file=sys.stderr)
         sys.exit(1)
 
     stats = fetch_profile(username, token)
@@ -163,7 +163,7 @@ def main():
     with open("dist/trophies.svg", "w", encoding="utf-8") as f:
         f.write(render_trophies_svg(username, stats))
 
-    print("Gerado: dist/trophies.svg")
+    print("Generated: dist/trophies.svg")
 
 
 if __name__ == "__main__":
